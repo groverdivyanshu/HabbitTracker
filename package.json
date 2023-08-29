@@ -1,4 +1,6 @@
-{
+{"engines": {
+  "node": ">=14.20.1"
+},
   "name": "habit-tracker",
   "version": "1.0.0",
   "description": "A simple habit tracking app based on NodeJS + EJS for user habit management on daily and weekly basis.",

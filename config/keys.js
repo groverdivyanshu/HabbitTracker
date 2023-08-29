@@ -1,7 +1,8 @@
 const mongoose=require('mongoose');
 
 
-mongoose.connect("mongodb://127.0.0.1/Habbittracker");
+mongoose.connect(
+    "mongodb+srv://groverdivyanshu97:grover@cluster0.0gajsdn.mongodb.net/HabbitTrackert?retryWrites=true&w=majority");
 
 const db=mongoose.connection;
 
